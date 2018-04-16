@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    background-color: #DDD;
+}
+
+#header, #footer{
+    color: white;
+    font-family:黑体;
+    font-size: 13px;
+    background-color: #333;
+}
+
+ul.square {
+    display: inline-block;
+    list-style-type:square; 
+    list-style-position:outside;
+}
+
+ul.square li {
+    display: inline-block; 
+    margin-left: 15px;
+    position:relative;
+    left: 770px;
+    top:-23px;
+}
+
+.logoimg {
+    height: 41px;
+    margin: 9px 0px 7px 37px;
+}
+
+#header a:link, #header a:visited {
+    color: white;
+    font-family:黑体;
+    text-decoration: none;
+}
+#header a:hover {
+    color: #BBB;
+    font-family:黑体;
+    text-decoration: none;  
+}
+
+#mainContext {
+    margin: 20px;
+}
+
+.generalBorder {
+    background-color: white;
+    border-left: 1px solid #CCC;
+    border-top: 1px solid #CCC;
+    border-right: 2px solid #AAA;
+    border-bottom: 2px solid #AAA;
+    margin: 20px 0px 20px 0px;
+    padding: 20px; 
+}
+
+
+.generalBorder h2, .generalBorder h3, .generalBorder h4, .generalBorder p, .generalBorder ul, .generalBorder ol {
+    font-family:黑体;
+    margin: 20px 0px 20px 0px;
+}
+
+.generalBorder h2 {
+    font-weight:bold;
+}
+
+.generalBorder h3 {  
+    color: #777;
+    font-size: 16px; 
+}
+
+.generalBorder h4 {  
+    color: #888;
+    font-size: 13px;  
+}
+
+.generalBorder p {
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-indent: 30px;
+}
+
+.generalBorder ul {
+   list-style:none; 
+    width: inherit;
+    
+}
+
+.generalBorder ul, .generalBorder ol {   
+    padding-left:30px;
+    font-size: 15px;
+    line-height:24px; 
+    font-weight: bolder;
+}
+
+.album {
+    border: 1px solid #DDD;
+    margin: 20px 0px 20px 40px;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+}
+
+.album img {
+    width: 100px;
+    position:relative;
+    margin: 10px 0px 0px 0px;
+}
+
+.generalTable {
+    border-collapse:collapse;
+    width:100%;
+}
+
+.generalTable caption, .generalTable td, .generalTable th {
+    text-align: left;
+    font-family: 黑体;
+    font-size: 13px;
+    padding: 5px;
+    
+}
+
+.generalTable td, .generalTable th {   
+    border: 1px solid #DDD;
+}
+
+.generalTable th {
+    color: white;
+    background-color: #333;
+}
+.generalTable tfoot td {
+    background-color: #DDD;
+    font-weight: bolder;
+}
+
+
+.generalForm {
+    background-color: white;
+    border-left: 1px solid #CCC;
+    border-top: 1px solid #CCC;
+    border-right: 2px solid #AAA;
+    border-bottom: 2px solid #AAA;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.generalForm h2 {
+    padding: 8px;
+    border-left: 3px solid #CCC;
+    font-family: 黑体;
+    font-size: 16px;
+}
+
+.generalForm div {
+    margin: 20px 0px 0px 0px;
+}
+.contentText {
+    font-family: 黑体;
+    font-size: 13px;
+}
+
+.generalForm div p {
+    color: #BBB;
+}
+
+.generalForm div input {
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+#submit {
+    width: 100%;
+    height: 35px;
+    font-family: 黑体;
+    font-size: 20px;
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 7px;
+}
+
+.generalForm label {
+    
+    width: 200px;
+    padding: 0px;
+    background-color: white;
+    position: relative;
+    
+}
+
+.generalForm input {
+    position: relative;
+    
+}
+
+#footer {
+    height: 70px;
+    text-align: center;
+}
+#footer p {
+    position: relative;
+    top:30%;
+}
