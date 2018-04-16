@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: absolute;
+}
+
+#mainFrame {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #999;
+    background-color: #eee;
+}
+
+#one, #two, #three {
+    margin: 0;
+    background-color: white;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#one {
+    width: 200px;
+}
+
+#one img {
+    margin: 20px;
+}
+
+#one p{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    top:20px;
+}
+
+#two {   
+    width: calc( 100% - 200px - 120px - 40px );
+    margin: 0px 10px;
+}
+
+#two p {
+    padding: 20px;
+}
+
+#three {
+    width: 120px;
+    padding-bottom: 20px;
+}
+#three img {
+    position: relative;
+    margin: 19px 20px 0px 20px;
+}
+
+.text {
+    font-family: 黑体;
+    font-size: 14px;
+}
