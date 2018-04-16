@@ -1,0 +1,628 @@
+* {
+    margin: 0;
+    padding: 0;  
+}
+
+body {
+    text-align: center;
+    width: 1300px;
+}
+
+#navigator {
+    background-color: white;
+    height: 55px;
+}
+
+#navigator #left, 
+#navigator #left div,
+#navigator #left p, 
+#navigator #right, 
+#navigator #right ul,
+#navigator #right ul li,
+#navigator #right div,
+#navigator #right p {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#logo {
+    height: 31px;
+    width: 31px;
+    background:url(images/mission7_sprit.png) no-repeat 0 -46px;       
+}
+
+#login{
+    height: 17px;
+    width: 14px;
+    background:url(images/mission7_sprit.png) no-repeat -40px -60px; 
+}
+
+#navigator #left {
+    margin-left: -300px;
+    margin-top: 14px;   
+}
+
+#navigator #left p {
+    font-family: 黑体;
+    font-size: 21px;
+    padding-top: 4px; 
+}
+
+#navigator #right {
+    float: right;
+    margin-top: 14px;
+}
+
+#navigator #right ul li {
+    margin-left: 0px;
+    padding: 0px 20px 19px 20px;
+    color: #999;
+    font-family: 微软雅黑;
+    font-size: 14px;  
+}
+
+#navigator #right ul li:hover {
+    border-bottom: 4px solid #E74F4D;
+}
+
+#navigator #right p {
+    margin-right: 90px;
+    color: #E74F4D;
+    font-family: 微软雅黑;
+    font-size: 15px;
+}
+
+#big_img {
+    width: 100%;
+    height: 650px;
+    background: url(images/mission7_navhead.png) no-repeat;
+    background-position: center;
+}
+
+#big_img a {
+    text-decoration:none;
+}
+#big_img a p {
+    box-sizing: border-box;
+    position: relative;
+    top:400px;
+    left: 200px;
+    width: 300px;
+    height: 60px;
+    padding-top: 12px;
+    background-color: #E74F4D;
+    text-align: center;
+    color: white;
+    font-family: 黑体;
+    font-size: 30px;
+}
+
+#part3 .frame {
+    width: 310px;
+    height: 200px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: -7px;
+}
+
+#part3 .frame .img3 {
+    width: 42px;
+    height: 42px;
+    margin-top: 42px;
+    margin-bottom: 35px;
+    position: relative;
+    left: calc( 50% - 21px );
+}
+
+#part3 .one .img3 {
+    background: url(images/mission7_sprit.png) no-repeat 0 0;
+}
+
+#part3 .two .img3 {
+    background: url(images/mission7_sprit.png) no-repeat -43px 0;
+}
+
+#part3 .three .img3 {
+    background: url(images/mission7_sprit.png) no-repeat -85px 0;
+}
+
+#part3 .four .img3 {
+    background: url(images/mission7_sprit.png) no-repeat -127px 0;
+}
+
+#part3 .frame p {
+    width: 160px;
+    padding-right: 74px;
+    position: relative;
+    left: calc( 50% - 80px);
+    color: #999;
+    font-family: 微软雅黑;
+    font-size: 14px; 
+}
+
+#part3 .one p, 
+#part3 .two p, 
+#part3 .three p {
+        border-right: 3px solid #BBB;
+} 
+
+#part4 {
+    box-sizing: border-box;
+    height: 330px;
+    background-color: #DDD;
+    padding-top: 80px;
+}
+
+#part4 .logoimg {
+    height: 92px;
+    width: 92px;
+    margin: 0 auto;
+    background: url(images/mission7_sprit.png) no-repeat 0 -82px;
+}
+
+#part4 p {
+    font-family: 黑体;
+    color: #777;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+#part5 {
+    height: 340px;
+    background: url(images/mission7_city.jpg) no-repeat 7px; 0; 
+}
+
+#part5 ul {
+    padding-top: 150px;
+}
+
+#part5 ul li, 
+#part5 ul li select {
+    width: 200px;
+    height: 30px;
+}
+
+#part5 ul li {
+    display: inline-block;
+    vertical-align: top; 
+    background-color: #E74F4D;
+    margin: 0 10px;
+}
+
+#part5 .four a p {
+    margin-top: 5px;
+}
+
+#part5 .four a:visited, #part5 .four a:link {
+    font-family: 黑体;
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+#part6 {
+    height: 600px;
+    background-color: #eee;
+    box-sizing: border-box;
+    padding-top: 110px;
+}
+
+#part6 ul li {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+}
+
+#part6 .img6 {
+    height: 330px;
+    width: 204px;
+    border: 2px solid #ddd;
+    padding-right: 18px;
+}
+
+#part6 .write {
+    background-color: white;
+}
+
+#part6 .one .img6 {
+    background: url(images/mission7_avtivity.png) no-repeat 0 -965px;
+}
+
+#part6 .two .img6 {
+    background: url(images/mission7_avtivity.png) no-repeat 0 -643px;
+}
+
+#part6 .three .img6 {
+    background: url(images/mission7_avtivity.png) no-repeat 0 -321px;
+}
+
+#part6 .four .img6 {
+    background: url(images/mission7_avtivity.png) no-repeat 0 1px;
+}
+
+#part7 {
+     text-align: left;
+}
+
+#part7 .left {
+    width: 70%;
+}
+
+#part7 .right {
+    margin-left: -10px;
+    width: 30%;
+    box-sizing: border-box;
+    padding: 140px 60px 0px 60px;
+    text-align: center;
+}
+
+#part7 .right h3 {
+    font-family:黑体;
+    font-weight: 100;
+    font-size: 21px;
+}
+
+#part7 .right h3 span {
+    color:#E74F4D;
+}
+
+#part7 .right p.content {
+    padding-top: 20px;
+    font-size: 12px;
+    color: #999;
+    line-height: 28px;
+}
+
+#part7 .right a {
+    text-decoration: none;
+}
+
+#part7 .right p.button, #part7 .right p.button:hover {
+    box-sizing: border-box;
+    color: #E74F4D;
+    font-family: 黑体;
+    font-size: 13px;
+    border: 1px solid #E74F4D;
+    padding-top: 5px;
+    width: 110px;
+    height: 28px;
+    margin-top: 38px;
+    margin-left: calc( 50% - 55px );
+}
+
+#part7 .right p.button:hover {
+    color: white;
+    background-color: #E74F4D;
+}
+
+
+#part7 .left,
+#part7 .right {
+    display: inline-block;
+    vertical-align: top;   
+}
+
+#part7 .right ul li {
+    display: inline-block;
+}
+
+
+#part8 {
+    height: 520px;
+    text-align: left;
+    margin-top: -1px;
+}
+
+#part8 .frame {
+    display: inline-block;
+    vertical-align: top;
+    height: 520px;
+}
+
+#part8 .left {
+    background-color: #E74F4D;
+    color: white;
+    width: 35%;
+}
+
+#part8 .middle {
+    margin-left: -8px;
+    width: 35%;
+}
+
+#part8 .right {
+    margin-left: -9px;
+    background-color: greenyellow;
+    width: 30%;
+    overflow: hidden;
+}
+
+#part8 p {
+    font-family: 黑体;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+#part8 .left, #part8 .middle {
+    box-sizing: border-box;
+    padding-top: 150px;
+    text-align: center;
+    line-height: 30px;
+}
+
+#part8 .left div.line, #part8 .middle div.line {
+    box-sizing: border-box;
+    margin: 25px auto;
+    height: 2px;
+    width: 35px;
+}
+
+#part8 .left div.line {
+    background-color: white;
+}
+
+#part8 .middle div.line {
+    background-color: #999;
+}
+
+#part8 .left p.button, #part8 .middle p.button {
+    box-sizing: border-box;
+    margin: 0px 140px;
+    padding-top: 3px;
+    height: 40px;
+    border: 2px solid black;
+}
+
+#part8 .left p.button {
+    border: 2px solid white;
+    color: white;
+}
+
+#part8 .left p.button:hover {
+    color: #E74F4D;
+    background-color: white;
+}
+
+#part8 .middle p.button {
+    border: 2px solid #E74F4D;
+    color: #E74F4D;
+}
+
+#part8 .middle p.button:hover {
+    color: white;
+    background-color:#E74F4D; 
+}
+
+#part9 {
+    box-sizing: border-box;
+    height: 220px;
+}
+
+#part9 h3 {
+    margin: 100px auto 5px auto;
+    font-family: 黑体;
+    font-size: 20px;
+    font-weight: 100;
+    color: #333;
+}
+
+#part9 div.line {
+    box-sizing: border-box;
+    height: 2px;
+    width: 30px;
+    margin: 12px auto;
+    background-color: #E74F4D;
+}
+
+#part9 p {
+    color: #AAA;
+    font-family: 黑体;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+#part10 {
+    margin: 0 100px;
+    height: 400px;
+}
+
+#part10 div.left,
+#part10 div.right {
+    display: inline-block;
+    vertical-align: top;
+    height: 400px;
+}
+
+#part10 div.left {
+    width: 300px;
+    text-align: left;
+}
+
+#part10 div.right {
+    width: 650px;
+    margin-left: 50px;
+}
+
+#part10 div.left h4, 
+#part10 div.left p {
+    font-family: 黑体;
+}
+
+#part10 div.left h4 {
+    font-size: 14px;
+    font-weight: 200;
+    color: #666;
+}
+
+#part10 div.left p {
+    font-size: 10px;
+    font-weight: 100;
+    line-height: 20px;
+    color: #AAA;
+    padding: 20px 0px 0px 0px;
+}
+
+#part10 div.left div.more {
+    margin-top: 8px;
+    margin-bottom: 20px;
+    position: relative;
+    left: calc( 100% - 45px );
+    width: 45px;
+}
+
+#part10 div.left div.more div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#part10 div.left div.more div.arrow {
+    height: 6px;
+    width: 10px;
+    background:url(images/mission7_sprit.png) no-repeat -129px -167px;
+}
+
+#part10 div.left div.more div.letter {
+    font: normal 12px "宋体";
+    margin-top:-7px;
+}
+
+#part10 div.right {
+    text-align: left;
+}
+
+#part10 div.right form .frame {
+    display: inline-block;
+    vertical-align: top;  
+    width: 320px;
+    height: 40px;
+    background-color: #EEE;
+    font-family: 黑体;
+    font-size: 12px;
+    color: #333;
+}
+
+#part10 div.right form .frame span {
+    display: inline-block;
+    width: 70px;
+}
+
+#part10 div.right form .frame input{
+    border:none;
+    height: 40px;
+    width: 250px;
+    outline: none;
+    background-color: #EEE;
+}
+
+#part10 div.right form .contact,
+#part10 div.right form .address {
+    margin-top: 15px;
+}
+
+#part10 div.right form textarea {
+    background-color: #EEE;
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    resize: none;
+    width: 649px;
+    height: 120px;
+    font: normal 12px/20px "黑体";
+    color: #333;
+}
+
+#part10 div.right form button {
+    outline: none;
+    border: none;
+    font: normal 14px/20px "黑体";
+    background-color: #EEE;
+    color: #222;
+    margin-top: 15px;
+    width: 649px;
+    height: 32px;
+}
+
+#part11 {
+    box-sizing: border-box;
+    padding: 100px 380px 80px 380px;
+    background-color: #222;
+    height: 350px;
+    font-family: 黑体;
+    color: white;
+}
+
+#part11 h3 {
+    font-size: 22px;
+}
+
+#part11 p {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 12px;
+}
+
+#part11 form input.email {
+    width: 300px;
+    height: 40px;
+}
+
+#part11 form input.submit {
+    margin-left: -8px;
+    width: 80px;
+    height: 40px;
+    background-color: #999;
+    font-family: 黑体;
+    color:white;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+
+#part11 ul.logo {
+    margin-top: 30px;
+}
+
+#part11 ul.logo li {
+    display: inline-block;
+    vertical-align: top;
+    width: 29px;
+    height: 25px;
+    margin-left: 20px;
+}
+
+#part11 ul.logo li.QQ {
+    background: url(images/mission7_sprit.png) no-repeat -139px -97px;
+}
+
+#part11 ul.logo li.weibo {
+    background: url(images/mission7_sprit.png) no-repeat -135px -72px;
+}
+
+#part11 ul.logo li.twitter{
+    background: url(images/mission7_sprit.png) no-repeat -134px -47px;
+}
+
+#part11 ul.logo li.earth {
+    background: url(images/mission7_sprit.png) no-repeat -139px -122px;
+}
+
+#footer {
+    box-sizing: border-box;
+    padding-top: 30px;
+    height: 70px;
+    color: white;
+    background-color: #111;
+    text-align: left;
+}
+
+#footer .copy {
+    margin-left: 100px;
+}
+
+#footer .btt a:link, #footer .btt a:visited {
+    width: 100px;
+    color: white;
+    float: right;
+    margin-right: 60px;
+    text-decoration: none;
+}
